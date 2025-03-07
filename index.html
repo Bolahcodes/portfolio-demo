@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Demo</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container header__container">
+        <a href="#" class="header__logo-link">
+          <h1 class="header__logo">
+            Vivacious<span class="header__logo-accent">Bola</span>
+          </h1>
+        </a>
+
+        <div class="header__menu-toggle" id="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <nav class="header__nav-container">
+          <ul class="header__nav">
+            <li class="header__nav-item">
+              <a href="#home" class="header__nav-link">Home</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#skills-hobbies" class="header__nav-link">Skills</a>
+            </li>
+            <!-- <li class="header__nav-item">
+              <a href="#hobbies" class="header__nav-link">Hobbies</a>
+            </li> -->
+            <li class="header__nav-item">
+              <a href="#community-service" class="header__nav-link"
+                >Community Service</a
+              >
+            </li>
+            <li class="header__nav-item">
+              <a
+                href="#contact-me"
+                class="header__nav-link header__nav-link--contact"
+                >Contact Me</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Hero Section -->
+    <section id="home" class="hero fade-in">
+      <div class="container hero__container">
+        <div class="hero__content">
+          <span class="hero__tag">Software Engineer & Community Advocate</span>
+          <h3 class="hero__greeting">
+            <span class="wave-emoji">👋</span> Hello, World!
+          </h3>
+          <h1 class="hero__title">
+            I'm <span class="vb__name">Vivacious Bola</span>
+          </h1>
+          <p class="hero__description">
+            Crafting digital experiences that
+            <span class="highlight">inspire</span> and
+            <span class="highlight">innovate</span>. I blend code with
+            creativity to build solutions that make a difference. When I'm not
+            coding, you'll find me serving my community and exploring new
+            musical horizons.
+          </p>
+          <div class="hero__cta">
+            <a href="#contact-me" class="btn btn-primary">Let's Connect</a>
+            <a href="#portfolio" class="btn btn-secondary">View My Work</a>
+          </div>
+          <div class="hero__socials">
+            <a href="#" class="social-link" aria-label="GitHub"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a href="#" class="social-link" aria-label="LinkedIn"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="#" class="social-link" aria-label="Twitter"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+            <a href="#" class="social-link" aria-label="Instagram"
+              ><i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="Facebook"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+          </div>
+        </div>
+        <div class="hero__image-container">
+          <div class="hero__background"></div>
+          <div class="hero__image">
+            <img src="assets/vivacious-bola.jpg" alt="Vivacious Bola" />
+          </div>
+          <div class="floating-icon icon-code">
+            <i class="fa-solid fa-code"></i>
+          </div>
+          <div class="floating-icon icon-heart">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <div class="floating-icon icon-music">
+            <i class="fa-solid fa-music"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Skills And Hobbies -->
+    <section id="skills-hobbies" class="skills-hobbies">
+      <div class="container skills-hobbies__container">
+        <div class="section-header fade-in">
+          <h2 class="section__title">Skills & Hobbies</h2>
+          <p class="section__subtitle">
+            Blessed with talents to serve and grow
+          </p>
+        </div>
+        <div class="skills-hobbies__content">
+          <!-- Professional Skills -->
+          <div class="skills-hobbies__column">
+            <h3 class="column__title">Professional Skills</h3>
+            <div class="skills-hobbies__grid">
+              <div class="skills-hobbies__item">
+                <div class="skills-hobbies__icon-container">
+                  <i class="fa-solid fa-code"></i>
+                </div>
+                <h4 class="skills-hobbies__title">Frontend Development</h4>
+                <p class="skills-hobbies__description">
+                  HTML, CSS, and JavaScript are my tools of choice for building
+                  user interfaces.
+                </p>
+              </div>
+
+              <div class="skills-hobbies__item">
+                <div class="skills-hobbies__icon-container">
+                  <i class="fa-solid fa-bullhorn"></i>
+                </div>
+                <h4 class="skills-hobbies__title">Public Speaking</h4>
+                <p class="skills-hobbies__description">
+                  Sharing knowledge and inspiring others through clear and
+                  engaging presentations.
+                </p>
+              </div>
+
+              <div class="skills-hobbies__item">
+                <div class="skills-hobbies__icon-container">
+                  <i class="fa-solid fa-hashtag"></i>
+                </div>
+                <h4 class="skills-hobbies__title">Social Media Management</h4>
+                <p class="skills-hobbies__description">
+                  Creating and managing content that engages audiences and
+                  builds communities.
+                </p>
+              </div>
+
+              <div class="skills-hobbies__item">
+                <div class="skills-hobbies__icon-container">
+                  <i class="fa-solid fa-hand-holding-hand"></i>
+                </div>
+                <h4 class="skills-hobbies__title">Community Service</h4>
+                <p class="skills-hobbies__description">
+                  Volunteering time and skills to help the less privileged in my
+                  community.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hobbies & Interests -->
+          <div class="skills-hobbies__column">
+            <h3 class="column__title">Hobbies & Interests</h3>
+            <div class="skills-hobbies__grid">
+              <div class="skills-hobbies__item">
+                <div class="skills-hobbies__icon-container">
+                  <i class="fa-solid fa-book-bible"></i>
+                </div>
+                <h4 class="skills-hobbies__title">Bible Study</h4>
+                <p class="skills-hobbies__description">
+                  Studying scripture to deepen my faith and understanding of
+                  God's word.
+                </p>
+              </div>
+
+              <div class="skills-hobbies__item">
+                <div class="skills-hobbies__icon-container">
+                  <i class="fa-solid fa-music"></i>
+                </div>
+                <h4 class="skills-hobbies__title">Music Appreciation</h4>
+                <p class="skills-hobbies__description">
+                  Listening to gospel music and worship songs that uplift the
+                  spirit.
+                </p>
+              </div>
+
+              <div class="skills-hobbies__item">
+                <div class="skills-hobbies__icon-container">
+                  <i class="fa-solid fa-person-hiking"></i>
+                </div>
+                <h4 class="skills-hobbies__title">Outdoor Activities</h4>
+                <p class="skills-hobbies__description">
+                  Enjoying God's creation through hiking and exploring nature.
+                </p>
+              </div>
+
+              <div class="skills-hobbies__item">
+                <div class="skills-hobbies__icon-container">
+                  <i class="fa-solid fa-users"></i>
+                </div>
+                <h4 class="skills-hobbies__title">Fellowship</h4>
+                <p class="skills-hobbies__description">
+                  Building relationships through church activities and Christian
+                  community.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-hobbies__testimony">
+          <div class="testimony__content">
+            <i class="fa-solid fa-quote-left testimony__quote-icon"></i>
+            <p class="testimony__text">
+              "For we are the circumcision, which worship God in the spirit, and
+              rejoice in Christ Jesus, and have no confidence in the flesh." —
+              Philippians 3:3
+            </p>
+            <p class="testimony__description">
+              My faith in Christ is the foundation of my life and work. It is
+              through Him that I find purpose, joy, and fulfillment in all that
+              I do.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Community Service Section -->
+    <section id="community-service" class="community-service">
+      <div class="container community-service__container">
+        <div class="section-header fade-in">
+          <h2 class="section__title">Community Service</h2>
+          <p class="section__subtitle">
+            Making a meaningful difference through compassion
+          </p>
+        </div>
+
+        <div class="community-service__content">
+          <div class="community-service__image slide-in-left">
+            <img
+              src="assets/community-service-1.jpg"
+              alt="Community Service Activities"
+            />
+            <div class="image-caption">Transforming lives through service</div>
+          </div>
+
+          <div class="community-service__text slide-in-right">
+            <p class="community-service__description">
+              My passion for community service stems from a deep belief that
+              small acts of kindness can create ripples of positive change.
+              Through dedicated volunteering and meaningful engagement, I'm
+              committed to creating lasting impact in the lives of those who
+              need it most.
+            </p>
+
+            <div class="service-areas">
+              <h3 class="service-areas__title">Areas of Impact</h3>
+
+              <div class="service-grid">
+                <div
+                  class="service-card"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                >
+                  <i
+                    class="fa-solid fa-heart-circle-plus service-icon pulse"
+                  ></i>
+                  <h4>Supporting Orphans</h4>
+                  <p>
+                    Providing emotional support, educational resources, and
+                    essential supplies to orphaned children.
+                  </p>
+                </div>
+
+                <div
+                  class="service-card"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
+                  <i class="fa-solid fa-bowl-food service-icon pulse"></i>
+                  <h4>Feeding the Homeless</h4>
+                  <p>
+                    Organizing weekly meal distributions and establishing
+                    sustainable food security programs.
+                  </p>
+                </div>
+
+                <div
+                  class="service-card"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                >
+                  <i class="fa-solid fa-user-graduate service-icon pulse"></i>
+                  <h4>Mentoring Youth</h4>
+                  <p>
+                    Guiding young people through educational and career
+                    development with personalized mentorship.
+                  </p>
+                </div>
+
+                <div
+                  class="service-card"
+                  data-aos="fade-up"
+                  data-aos-delay="400"
+                >
+                  <i class="fa-solid fa-venus service-icon pulse"></i>
+                  <h4>Empowering Women</h4>
+                  <p>
+                    Creating opportunities for skill development, financial
+                    independence, and leadership growth.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="cta-container bounce">
+              <a href="#contact-me" class="btn btn-secondary"
+                >Join Me in Making a Difference</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Me Section -->
+    <section id="contact-me" class="contact-me">
+      <div class="container contact-me__container">
+        <div class="section-header fade-in">
+          <h2 class="section__title">Let's Connect</h2>
+          <p class="section__subtitle">
+            Start a conversation about collaboration and community impact
+          </p>
+        </div>
+
+        <div class="contact-content">
+          <div class="contact-info slide-in-left">
+            <div class="contact-card">
+              <i class="fa-solid fa-location-dot contact-icon"></i>
+              <h4>Location</h4>
+              <p>Lagos, Nigeria</p>
+            </div>
+
+            <div class="contact-card">
+              <i class="fa-solid fa-envelope contact-icon"></i>
+              <h4>Email</h4>
+              <p>hello@vivaciousbola.com</p>
+            </div>
+
+            <div class="contact-card">
+              <i class="fa-solid fa-phone contact-icon"></i>
+              <h4>Phone</h4>
+              <p>+234 800 123 4567</p>
+            </div>
+
+            <div class="availability-indicator">
+              <span class="status-dot pulse"></span>
+              <p>Available for new projects and collaborations</p>
+            </div>
+          </div>
+
+          <form
+            action="#"
+            class="contact-me__form slide-in-right"
+            data-aos="zoom-in"
+          >
+            <div class="form-header">
+              <h3>Send Me a Message</h3>
+              <p>I'll respond within 24 hours</p>
+            </div>
+
+            <div class="form-group focus-effect">
+              <label for="name" class="form-label">Your Name</label>
+              <input
+                type="text"
+                id="name"
+                class="form-input"
+                placeholder="John Doe"
+                required
+              />
+            </div>
+
+            <div class="form-group focus-effect">
+              <label for="email" class="form-label">Email Address</label>
+              <input
+                type="email"
+                id="email"
+                class="form-input"
+                placeholder="johndoe@example.com"
+                required
+              />
+            </div>
+
+            <div class="form-group focus-effect">
+              <label for="subject" class="form-label">Subject</label>
+              <input
+                type="text"
+                id="subject"
+                class="form-input"
+                placeholder="Project Collaboration"
+                required
+              />
+            </div>
+
+            <div class="form-group focus-effect">
+              <label for="message" class="form-label">Your Message</label>
+              <textarea
+                id="message"
+                class="form-input"
+                rows="5"
+                placeholder="Tell me about your project or how we can work together..."
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary button-pulse">
+              <i class="fa-solid fa-paper-plane"></i> Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <h3 class="footer-logo">Vivacious Bola</h3>
+            <p class="footer-tagline">Serving communities, changing lives</p>
+          </div>
+
+          <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#community-service">Service</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact-me">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-newsletter">
+            <h4>Stay Updated</h4>
+            <p>
+              Subscribe to my newsletter for community service opportunities
+            </p>
+            <div class="newsletter-form">
+              <input
+                type="email"
+                placeholder="Your email address"
+                class="newsletter-input"
+              />
+              <button class="newsletter-btn">Subscribe</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="footer__text">
+            &copy; 2025 Vivacious Bola. All rights reserved.
+          </p>
+
+          <div class="footer__socials">
+            <a href="#" class="social-link hover-effect" aria-label="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="#" class="social-link hover-effect" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="#" class="social-link hover-effect" aria-label="Twitter">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="#" class="social-link hover-effect" aria-label="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="#" class="social-link hover-effect" aria-label="Facebook">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="back-to-top">
+          <a href="#top" class="back-to-top-link" aria-label="Back to Top">
+            <i class="fa-solid fa-arrow-up"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- <script src="scripts.js"></script> -->
+  </body>
+</html>
